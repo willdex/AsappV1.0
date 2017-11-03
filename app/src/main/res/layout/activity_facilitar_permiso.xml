@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_facilitar_permiso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.grayhartcorp.quevengan.Facilitar_permiso"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGUIENTE"
+        style="@style/submit"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/siguiente" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Para facilitar su registro te recomendamos darnos permiso de leer el SMS que esta por llegar."
+        android:textAlignment="center"
+        android:textSize="@dimen/Texto_pequenio"
+        android:layout_gravity="center_horizontal|top"
+        android:id="@+id/textView4" />
+</FrameLayout>

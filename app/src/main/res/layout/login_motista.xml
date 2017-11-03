@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+        <Button
+            android:text="CONTINUAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/siguiente_m"
+            android:layout_gravity="center_horizontal|bottom"
+            style="@style/submit"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/titulo"
+            android:text="QueVengan verificara tu número de telefono y Codigo de MotoTaxi.Introduce tu número de Telefono"
+            android:textAlignment="center"
+            android:textSize="@dimen/Texto_pequenio"
+            android:layout_gravity="center_horizontal|top" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+        <LinearLayout
+            android:id="@+id/area_telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/area_nombre"
+            android:orientation="horizontal"
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/Error"
+                >
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="4"
+                    android:hint="Bolivia"
+                    android:inputType="phone"
+                    android:clickable="false"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/Error"
+                >
+
+                <EditText
+                    android:id="@+id/celular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:maxLength="8"
+                    android:hint="Celular"
+                    android:inputType="phone" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/area_codigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/area_nombre"
+        android:orientation="horizontal"
+        >
+
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_codigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorTextAppearance="@style/Error"
+            >
+
+
+            <EditText
+                android:id="@+id/codigo"
+                android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="SMS Codigo"
+                android:inputType="number"
+                android:maxLength="4"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+</FrameLayout>

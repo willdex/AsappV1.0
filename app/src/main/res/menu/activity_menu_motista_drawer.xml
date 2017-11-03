@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/historial"
+
+        android:title="Historial" />
+    <item
+        android:id="@+id/notificacion"
+
+        android:title="Notificación" />
+    <item
+        android:id="@+id/retiro"
+
+        android:title="Retiros / Depositos"
+        />
+    <item
+        android:id="@+id/null1"
+        android:title=""
+        />
+    <item
+        android:id="@+id/null2"
+        android:title=""
+        />
+    <item
+        android:id="@+id/null3"
+        android:title=""
+        />
+    <item
+        android:id="@+id/null4"
+        android:title=""
+        />
+    <item
+        android:id="@+id/null5"
+        android:title=""
+        />
+
+
+
+    <group android:checkableBehavior="none"
+        >
+
+        <item
+            android:id="@+id/salir"
+            android:title="Salir" />
+
+    </group>
+
+
+
+
+</menu>

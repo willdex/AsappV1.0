@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.grayhartcorp.quevengan.menu_motista.Menu_motista"
+    tools:showIn="@layout/app_bar_menu_motista"
+    android:background="@color/colorPrimaryDark"
+
+    >
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:id="@+id/ubicacion"
+        android:text="ubicacion"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:id="@+id/tv_bateria"
+            android:text="BATERIA"
+            />
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.grayhartcorp.quevengan.menu_motista.Menu_motista"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical|bottom"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="inactivo"
+            android:id="@+id/estado"
+            style="@style/submit"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Iniciar carrera"
+            android:id="@+id/iniciar_carrera"
+            style="@style/submit"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lpedido"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nuevo destino"
+                android:id="@+id/finalizar_carrera"
+                android:layout_weight="1"
+                style="@style/submit"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Finalizar"
+                android:id="@+id/finalizar_todo"
+                android:layout_weight="1"
+                style="@style/submit"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Ll_direccion_empresa"
+        android:padding="8sp"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="20sp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10sp"
+        android:background="@drawable/circulo">
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginRight="10sp"
+            android:src="@mipmap/ic_perfil"
+            android:id="@+id/imagen_usuario"
+            android:layout_gravity="center_horizontal|bottom"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nombre"
+            android:text="Nombre"
+            android:layout_margin="10sp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nombre_empresa"
+            android:text="Empresa"
+            android:layout_margin="10sp"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:src="@mipmap/ic_opcion"
+            android:id="@+id/im_opcion"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="25sp"
+            />
+    </LinearLayout>
+</FrameLayout>

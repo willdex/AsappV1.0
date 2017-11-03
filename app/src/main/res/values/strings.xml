@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asapp Moto</string>
+    <string name="title_activity_registro__usuario">Registro_Usuario</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="section_format">Hola mundo : %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_principal_cliente">Principal_cliente</string>
+
+    <string name="selectionButton">Seleccionar Contacto</string>
+    <string name="sendButton">Enviar</string>
+    <string name="title_activity_custom_view_icon_text_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_principal2">Principal2</string>
+    <string name="title_activity_menu">Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_menu_p">ASAPP</string>
+    <string name="title_activity_eliminar">Eliminar</string>
+    <string name="title_activity_buscar_moto">Buscar_moto</string>
+    <string name="title_activity_mapa_moto">Map</string>
+
+
+    <string name="GPSAlertDialogTitle">Locatización</string>
+    <string name="GPSAlertDialogMessage">El servicio de Localización esta desabilitado</string>
+    <string name="location">Locatización</string>
+    <string name="location_desc">
+El permiso de ubicación es necesario para mostrar su ubicación actual, ¿le gustaría reconsiderar?</string>
+    <string name="title_activity_mi_perfil">Mi Perfil</string>
+    <string name="title_activity_lista_contactos_de_grupo">Lista_contactos_de_grupo</string>
+    <string name="title_activity_lista_contactos_grupo">Enviar pedido para</string>
+    <string name="inicio">Verifica tu número</string>
+    <string name="validacion">Validación</string>
+    <string name="historial">Historial de pedido</string>
+    <string name="registrar_usuario">Información de perfil</string>
+    <string name="registrar_direccion">Registrar dirección</string>
+    <string name="title_activity_contactos_nueva_version">Contactos_nueva_version</string>
+    <string name="title_activity_mis__contactos">MIs_Contactos</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="large_text">Informacion basica del motista. para el conocimiento del usuario que solicito un servicio del Motista. </string>
+    <string name="title_activity_swipe_personalizado">swipe_personalizado</string>
+    <string name="mis_direcciones">Mis direcciones</string>
+    <string name="configuracion">Configuración</string>
+    <string name="title_activity_con">con</string>
+    <string name="title_activity_menu_motista">ASAPP</string>
+
+    <string name="servidor4">http://130.211.115.201:80/Asapp/</string>
+    <string name="servidor3">http://10.0.128.2:80/Asapp/</string>
+    <!--<string name="servidor">http://130.211.115.201/weservices/</string>-->
+    <string name="servidor">http://192.168.100.115/webserviceasap/webservicesAsapp/</string>
+
+    <string name="mensajeria">e13658e4-58da-468f-8bf3-64ac58061af8</string>
+    <string name="title_activity_carrera">Map</string>
+    <string name="title_activity_pedir_moto">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_carrera_us">Carrera</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_notificacion_pedido_moto">Map</string>
+    <string name="title_activity_detalle_carrera">Map</string>
+
+
+    <string name="enterphonenumber">Ingresa tu numero</string>
+    <string name="selectcountry">Selecciona tu Pais</string>
+
+    <string name="sending_sms">Enviaremos un sms de confirmacion al siguiente numero</string>
+    <string name="flashcalling">We\'re requesting a flash call to</string>
+    <string name="inprogress">Verificacion en proceso</string>
+    <string name="verified">Verificacion Exitosa</string>
+    <string name="failed">Verificacion Fallida</string>
+    <string name="sms_enter_code">Porfavor ingresa el codigo sms</string>
+    <string name="flashcall_enter_cli">Please enter the phone number you received a call
+        from</string>
+    <string name="title_activity_menu_historial">Menu_historial</string>
+    <string name="title_activity_main_historial">Main_historial</string>
+    <string name="title_activity_menu_historial_pedido">Menu_historial_pedido</string>
+</resources>

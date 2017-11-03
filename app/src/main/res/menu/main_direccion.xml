@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search"
+        android:title="Buscar..."
+        android:icon="@mipmap/ic_buscar"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/actualizar"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_actualizar"
+        app:showAsAction="always"
+        android:title="Icono"/>
+    <item
+        android:id="@+id/agregar"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_agregar_direccion"
+        app:showAsAction="always"
+        android:title="Icono"/>
+</menu>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.grayhartcorp.quevengan.Menu_p"
+    tools:showIn="@layout/app_bar_menu_p"
+    android:background="@color/colorPrimary"
+    >
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:id="@+id/ll_mapa"
+                >
+                <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:context="com.grayhartcorp.quevengan.Menu_p"
+
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Ll_llamar"
+                >
+                <Button
+                    android:text="Llamar"
+                    style="@style/submit"
+                    android:id="@+id/pedir_moto"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center|bottom" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ubicacion"
+            android:text="dato"
+            android:visibility="invisible"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:layout_gravity="center_horizontal|top"
+            >
+
+        </LinearLayout>
+
+
+
+
+
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_gravity="center_vertical|top"
+        android:orientation="vertical"
+        android:padding="10sp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:id="@+id/Llagregar_direccion"
+        android:layout_marginBottom="100sp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/Texto_mediano"
+            android:id="@+id/ultima_ubicacion"
+            android:text="Ubicación actual"
+            android:padding="5sp"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:src="@mipmap/ic_opcion"
+            android:id="@+id/im_opcion"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="23sp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

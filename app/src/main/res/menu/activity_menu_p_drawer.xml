@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/notificacion"
+
+            android:title="Notificación" />
+
+
+        <item
+            android:id="@+id/historial"
+
+            android:title="Historial" />
+        <item
+            android:id="@+id/facturacion"
+
+            android:title="Facturación" />
+
+
+        <item
+            android:id="@+id/empresa"
+
+            android:title="Administración de Usuario" />
+        <item
+            android:id="@+id/soporte"
+
+            android:title="Soporte" />
+        <item
+            android:id="@+id/null1"
+            android:title=""
+            />
+        <item
+            android:id="@+id/null2"
+            android:title=""
+            />
+        <item
+            android:id="@+id/null3"
+            android:title=""
+            />
+
+        <item
+            android:id="@+id/salir"
+            android:title="Salir" />
+
+    </group>
+
+
+</menu>

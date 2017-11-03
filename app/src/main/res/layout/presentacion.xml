@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center|bottom"
+        >
+        <Button
+            android:text="Entrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/entrar"
+            style="@style/submit"
+            />
+
+        <Button
+
+            android:text="Registrar"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/registrar"
+            android:layout_weight="1"
+            style="@style/submit"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="477dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/icono"
+            android:layout_width="match_parent"
+            android:layout_height="332dp"
+            android:layout_margin="30sp"
+            android:src="@mipmap/intro" />
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Fnotificacion"
+    android:paddingTop="8sp"
+    android:paddingBottom="8sp"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo"
+        android:text="TITULO"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+<TextView
+    android:layout_width="20sp"
+    android:layout_height="20sp"
+    android:background="@mipmap/ic_check"
+    android:id="@+id/palomita"
+    android:text=""
+    />
+</LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensaje"
+            android:text="MENSAJE"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"
+            />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fecha"
+        android:text="FECHA"
+        android:layout_weight="1"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hora"
+        android:text="HORA"
+        android:gravity="right"
+        android:textColor="@color/colorPrimary"
+        android:layout_weight="1"
+        />
+</LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

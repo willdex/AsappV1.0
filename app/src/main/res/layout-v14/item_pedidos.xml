@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8sp"
+    android:paddingBottom="8sp"
+    >
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Nombre dirección"
+                android:textSize="@dimen/Texto_mediano"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/tv_nombre_direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha"
+                android:id="@+id/tv_fecha"
+                android:layout_weight="1"
+                android:layout_column="2"
+                android:textColor="@color/negro"
+                android:gravity="right"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Detalle dirección"
+                android:textSize="@dimen/Texto_mediano"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/tv_nombre_empresa"
+                android:layout_weight="1"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnSpan="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre motista"
+                android:id="@+id/tv_nombre_motista"
+                android:layout_weight="1"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnSpan="1"
+                android:textColor="@color/negro"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre motista"
+                android:id="@+id/im_me_gusta"
+                android:src="@mipmap/ic_manito_neutro"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monto total"
+                android:id="@+id/tv_monto_total"
+                android:textColor="#000"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:padding="5sp"
+                android:layout_columnSpan="2" />
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+</LinearLayout>

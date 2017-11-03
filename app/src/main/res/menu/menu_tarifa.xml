@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.grayhartcorp.quevengan.tarifa.Tarifa">
+    <item
+        android:id="@+id/actualizar"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_actualizar"
+        app:showAsAction="ifRoom"
+        android:title="Actualizar"/>
+</menu>

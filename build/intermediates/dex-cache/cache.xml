@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/5b99196d205bc76fbaf93414766c1af337f775e7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d10db4bac6b505d4ceeb1210704fb9f2db89b011/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/8b56316a2836c72b6ec9bbdf39cc2eae0e202dfb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e1acb69e12bac7b805ff5c11227d9eb4bcd13a04">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d3e4b381e20975a77fec80221544e968e5ebeeaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/146879a8ccbaecaf0350d9900e4a397865de9e05/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ab9649a4c656255ea3fa2caecdd73d0b66862c26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/2528e620f6bdc3783748bc74d7b90bc3beabea40/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_78d78b6937f55d6280662c31012915fe7298b992/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/09016791c19087c68d061205112a0b45e2e09117/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43e9789bd3240271265ab30ce1be9f224843f5a8">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eb3217978fd1ac8657ed042bb5c474ceed385618/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/cfdab172068bf32ebdac15c0bce5b63291b83dfb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c29c4eb6f0e0c64c1fc4dfe201b58e7a69dfabf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/3d4c545fa06a751120e140a881efe2a41cfcd413/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5b429c146094a612134910688d169ec08deeefb">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_78d176c960e52e420dd95267d799c244d09c1e80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.2.0_9487ec1ddb307524ac8a17f97af2344699b563af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/b58665212d026d9b13cd4934c56035eb58e40e8d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fa7b5ff349907fc14e7e67eb72c0c33bb0f76e96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/40b1746618ff583e4147e3e555ac7c524828c636/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5b6af36bacf1d812cd3dc45f9dcab9ea471ed91">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ff887b0c92a26e2292994891c9e2296e9c15778/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/590239c4858276478135087befde6f4b96018fa1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_03605117031f1fadf58259f6ecc5ec53bf6f0aa0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/d14ec39143b9ea1debd9125c41030465b924aeac/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_de07601369f3d004590481476a08dfe7c9c81fee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/cc3ef2d0dfbb7db42c40649e0a03bd6ac121ef46/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0f4ec44c1210c4b9f4b73f6889972f81168a15b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/18336b1d05bbfcfe2925cc97cea2d17613ae5448/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e1625e48a836779b5fa141d22e5d05563aaccc9a">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d894cc5e0c4476c4f089048fac4a9618ce950881/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/5ede2f70241e7439b5bc29cb0ea012f1af077d83/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2c2f1b3f82c027e98f56bb0154de0acbcce42e6d">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_63e06267b58f774cfb4c0c56bbf76180fca44453/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/29e58fee15ee097271c70bcb10968cd99aff7d22/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a285681a1c3f37f1598c4284ec602ebb3fbe0fb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/e332d1bf212d7452beff5c8a22575875ccd6b1c2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6ccce1e0cdaeb04adba797bee031944150f9d81e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/37dc9fdb6b1aac93a4c79a31a0002c7aeb9d7fe7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_49fd377b3ede5be46212e9a875f741c04298be27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/fb5eb3dab305937809d590c9130a930e5721d38b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed87ccdcb70c17d71ba4e6e4ac16afa62d3c49fb">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4e8e3cadf39228df45fb6dcc7b3c6529cef42b7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/69ef37e0f7f14d0036b95382d69f12da7508fa69/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b91bc7e480ab100d0397b16c93732e26fd10eb">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c00fc75811474773268ccbc4aedc9f8317741447/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9b941feab6aa36355285ac1ab0ce5384f53c471f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/dcb4f27274c53eaff10551386927de0f19091b27/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_212c8f1083457869ae8f3717ea1e3e8e81746b39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/ff09fa71f312f2ab0bbe7a01e51aab3157b26121/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3ae6385870cc679122683093ee9727eb10e5c412/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.gradle/caches/modules-2/files-2.1/org.jbundle.util.osgi.wrapped/org.jbundle.util.osgi.wrapped.org.apache.http.client/4.1.2/98c86e42679fe7ac066f6c242e0d14f0bce0bb7c/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_4ff1f04d7965c0df5964290552180f7f954b6eb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/9960c1cc32fe60c706d8653804eca355b6d0405d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d619029f68cbe112378032232c032c7e6e8151c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/a77b8c872cbc0e6979a8f0f5d2dbec2cbde2fd57/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f485ab042fe79a9bab4175f14a184437fd8e243b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/c545fbd75c322fb774d47b6cd2c801d985d9e652/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a25b0b5aec89681b95d32780ad7904c1e1e4c679">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a635b89453418e6c58337dfe26e0a0f2b38437ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/d46018d292ff0250491b77be0c706067fa7b2986/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f47f4d5bdfd7d7bf330945b8a7ccce4ab437a710">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f1a5f456402da6a0076324e651797677c8747cf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.systembartint/systembartint/1.0.3/de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287/systembartint-1.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/systembartint-1.0.3_51db8e6ca818532dc69091f2bcdef89fa428f8ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/3c74efd9e8ce86c401c2c3e0af93a805c98887fa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7d50c2b70534bf9c93a1b8dc8a1e8fcc3ed9e59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/4d7eda1276261971b5e737ea2183d2212244e9f7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_765f1240e5cba77dddeb4325a7d9a18ac4df50ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/AndroidStudioProjects/asappcorp/app/libs/volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_3a52b9ac48aacd2c667a6ebb86416dcca57c3baf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/8c8ee922c9f792926f3ce07ea66688aa6b9c299d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ec60c65049acbe1de995387576a29a3acf5aeda4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1acb7eaa8593ac81629742be4023cc5636d01f83">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4f014d4552009d4b00e9910f27398b6ae557f06b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/WILLY/.android/build-cache/76be2823d1c66b0c720ceb3b2e51740e28a692b9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8dd49930e4f9dde1a42d37e362b9fea8b1b69c0d">
+        <dex dex="/Users/WILLY/AndroidStudioProjects/asappcorp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2e8821d962c2283c3fe7a1f2703113f7a2a90bd4/classes.dex" />
+    </item>
+
+</items>

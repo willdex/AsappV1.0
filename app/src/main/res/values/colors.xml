@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4e0034</color>
+    <color name="colorPrimaryDark">#dad0b6</color>
+    <color name="colorAccent">#8e4747</color>
+    <color name="ColorActionBarTitle">#ffffff</color>
+
+    <color name="colorPrimary_back">#4e0034</color>
+
+    <color name="submit">#3fc246</color>
+    <color name="negro">#000</color>
+    <color name="back">#dad0b6</color>
+    <color name="rojo">#ff0011</color>
+    <color name="colorPrimary_transparente">#704e0034</color>
+    <color name="colorPrimaryDark_transparente">#b3dad0b6</color>
+
+
+    <color name="color_transparente">#00000000</color>
+
+
+
+</resources>

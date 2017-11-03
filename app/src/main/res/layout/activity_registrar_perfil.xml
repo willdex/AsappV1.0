@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_view"
+    tools:context="com.grayhartcorp.quevengan.Registrar_perfil"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal|top"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿Una SelFie?"
+            android:textAlignment="center" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_perfil"
+            android:layout_margin="50sp"
+            android:layout_weight="1"
+            android:id="@+id/perfil" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="De esta menera el de la moto te podra reconocer."
+            android:textAlignment="center"
+            android:id="@+id/textView3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIGUIENTE"
+            android:id="@+id/siguiente"
+            style="@style/submit"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

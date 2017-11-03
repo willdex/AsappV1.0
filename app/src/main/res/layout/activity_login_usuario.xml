@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_login_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.grayhartcorp.quevengan.Login_usuario"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameLayout2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+            <Button
+                android:text="SIGUIENTE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:id="@+id/smsVerificationButton"
+                style="@style/submit"
+               />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/titulo"
+            android:text="Asapp te enviara un SMS para verificar tu número de telefono.Introduce tu número de Telefono"
+            android:textAlignment="center"
+            android:textSize="@dimen/Texto_pequenio"
+            android:layout_gravity="center_horizontal|top" />
+
+        <com.grayhartcorp.quevengan.autentificacion.CountrySpinner
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_marginTop="100sp"
+            android:layout_gravity="center_horizontal|top"
+            android:visibility="visible"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/area_nombre"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/Error"
+                >
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:errorTextAppearance="@style/Error"
+                >
+
+                <EditText
+                    android:id="@+id/phoneNumber"
+                    android:hint="Numero de Celular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_margin="20dp"
+                    android:inputType="phone"/>
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

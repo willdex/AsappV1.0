@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "411294724484",
+    "firebase_url": "https://deft-epoch-140415.firebaseio.com",
+    "project_id": "deft-epoch-140415",
+    "storage_bucket": "deft-epoch-140415.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411294724484:android:80a1b8bc8650a52d",
+        "android_client_info": {
+          "package_name": "com.grayhatcorp.quevengan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411294724484-2c4ab07am76fdq2kl49ujk8718a4dmb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grayhatcorp.quevengan",
+            "certificate_hash": "37f8e51892235b63c298ab3fa1fd444aca68573d"
+          }
+        },
+        {
+          "client_id": "411294724484-a41fpvtssng6jdqfvfukvkr9qloe87cs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu6w5qawkcF758zDUp6kjIHMYrgi24Cl4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411294724484-a41fpvtssng6jdqfvfukvkr9qloe87cs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="8sp"
+    android:paddingBottom="8sp"
+    tools:context="com.grayhartcorp.quevengan.direccion.Items_mis_direcciones">
+
+
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:text="Dirección"
+        android:textSize="@dimen/Texto_mediano"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" />
+
+
+
+        <TextView
+        android:text="Dirección"
+        android:textSize="@dimen/Texto_mediano"
+        android:id="@+id/direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container_wrapper"
+            >
+
+        </RelativeLayout>
+
+
+</LinearLayout>
+
+
+</LinearLayout>

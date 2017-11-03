@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d5000000"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Llamando Moto ..."
+        android:textColor="#fff"
+        android:textSize="@dimen/Texto_mediano"
+        android:padding="15sp"
+        android:layout_marginTop="25sp"
+        android:id="@+id/tv_mensaje_pedido"
+        />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:src="@drawable/radar_2"
+    android:id="@+id/im_rodar_pedido"
+    android:layout_gravity="center"
+    />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/submit"
+    android:text="CANCELAR"
+        android:layout_gravity="bottom"
+        android:id="@+id/bt_cancelar_pedido"
+        />
+</FrameLayout>

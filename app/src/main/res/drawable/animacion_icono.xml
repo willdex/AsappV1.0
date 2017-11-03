@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@+id/selected"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:drawable="@drawable/llanta0" android:duration="1" />
+        <item android:drawable="@drawable/llanta1" android:duration="1" />
+        <item android:drawable="@drawable/llanta2" android:duration="1" />
+        <item android:drawable="@drawable/llanta3" android:duration="1" />
+        <item android:drawable="@drawable/llanta4" android:duration="1" />
+        <item android:drawable="@drawable/llanta5" android:duration="1" />
+        <item android:drawable="@drawable/llanta6" android:duration="1" />
+        <item android:drawable="@drawable/llanta7" android:duration="1" />
+        <item android:drawable="@drawable/llanta8" android:duration="1" />
+        <item android:drawable="@drawable/llanta9" android:duration="1" />
+        <item android:drawable="@drawable/llanta10" android:duration="1" />
+        <item android:drawable="@drawable/llanta11" android:duration="1" />
+     </animation-list>

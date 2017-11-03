@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Cómo calificas este servicio?"
+        android:textColor="#fff"
+        android:textSize="@dimen/Texto_grande"
+        android:id="@+id/tv_titulo"
+        android:padding="10sp"
+
+        android:background="@color/colorPrimary"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CANCELAR"
+            android:textSize="@dimen/Texto_mediano"
+            style="@style/submit"
+            android:id="@+id/bt_cancelar"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/submit"
+            android:src="@mipmap/ic_no_me_gusta"
+            android:id="@+id/bt_no_me_gusta"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/submit"
+            android:src="@mipmap/ic_me_gusta"
+            android:id="@+id/bt_me_gusta"/>
+    </LinearLayout>
+
+</LinearLayout>
